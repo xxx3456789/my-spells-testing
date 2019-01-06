@@ -2,55 +2,57 @@
 https://github.com/LeagueSandbox/GameServer and https://github.com/LeagueSandbox/LeagueSandbox-Default but with additions including more champion abilities (unfinished), custom champion files, and API functionality.
 
 # Prerequisites:
-1. League v4.20 client: https://mega.nz/#!hpkiQK5A!pFkZJtxCMQktJf4umplAdPC_Fukt0xgMfO7g3bGp1Io
-2. A brain with some experience with code.
+* League v4.20 client: https://mega.nz/#!hpkiQK5A!pFkZJtxCMQktJf4umplAdPC_Fukt0xgMfO7g3bGp1Io
+* A brain with some experience with code.
 
 # Setup:
-Go into GameServer folder,
-then GameServerConsole,
-then bin,
-then Debug,
-then Settings,
-open GameServerSettings.json,
-then change "clientLocation" to the path to your deploy folder that is inside League-420 folder
-(MAKE SURE TO CHANGE \ TO /).
+* Go into GameServer folder
+* Go into GameServerConsole
+* Go into bin
+* Go into Debug
+* Go into Settings
+* Open GameServerSettings.json
+* Change "clientLocation" to the path to your deploy folder that is inside League-420 folder with all \ being replaced with /.
+```
+C:\League-of-Legends-4-20\RADS\solutions\lol_game_client_sln\releases\0.0.1.68\deploy -> C:/League-of-Legends-4-20/RADS/solutions/lol_game_client_sln/releases/0.0.1.68/deploy
+```
 
-# Missing Settings:
-Skip to step "To run",
-then go to "For it to work"
+### Missing Settings:
+* Skip to step "Running"
+* After, go to "Setup"
 
 # Running:
-Go into GameServer folder,
-then GameServerConsole,
-then bin,
-then Debug,
-then run GameServerConsole.exe and it will auto-launch League (ONLY for Player 1).
+* Go into GameServer folder,
+* Go into GameServerConsole,
+* Go into bin,
+* Go into Debug,
+* Run GameServerConsole.exe and it will auto-launch League (ONLY for Player 1).
 
-# Run as P2:
-Go into your deploy folder that is inside League-420 folder,
-then move run p2.bat file inside deploy folder,
-then run GameServerConsole.exe,
-then open run p2.bat.
+#### Run as P2:
+* Go into your deploy folder that is inside League-420 folder,
+* Move run p2.bat file inside deploy folder,
+* Run GameServerConsole.exe,
+* Open run p2.bat.
 
-# Commands:
-In-game, type !help for a list.
+#### Commands:
+* In-game, type !help for a list.
 
-# Changing Character:
-Go into GameServer folder,
-then GameServerConsole,
-then bin,
-then Debug,
-then Settings,
-then open GameInfo.json and change whatever settings you want (try not to mess with runes as the wrong ID will crash your game).
+### Changing Character:
+* Go into GameServer folder,
+* Go into GameServerConsole,
+* Go into bin,
+* Go into Debug,
+* Go into Settings,
+* Open GameInfo.json and change whatever settings you want (try not to mess with runes as the wrong ID will crash your game).
 
-# Changing Players:
-Go into GameServer folder,
-then GameServerConsole,
-then bin,
-then Debug,
-then Settings,
-then open GameInfo.json and highlight:
-What yours might look like:
+### Changing Players:
+* Go into GameServer folder,
+* Go into GameServerConsole,
+* Go into bin,
+* Go into Debug,
+* Go into Settings,
+* Open GameInfo.json and highlight then copy:
+```
 { <= this is where you start highlighting to copy)
 	"rank": "DIAMOND",
 	"name": "Test1",
@@ -94,13 +96,14 @@ What yours might look like:
 		"29": 5335,
 		"30": 5335
 	}
-} <=(this is where you add the ,)
+} <=(this is where you add the comma)
+```
 
-then add , next to the } at the end to notify the game you have more players than 1,
-then paste the info you copied with Ctrl+V and change the name to a new name, etc.
-When you want to delete, just select what you copied, delete it, then delete the , next to the } from before.
+* Add a comma (,) next to the } at the end to notify the game you have more than 1 player.
+* Paste the info you copied and change the name to a new name, etc.
+* When you want to delete a player, just select what you copied, delete it, then delete the comma (,) next to the } from before.
 
 # Custom League Content:
-Download League 4.20 client,
-then go into Custom League Content folder,
-then drag League of Legends folder to your League of Legends 4.20 folder, make sure League of Legends 4.20 folder has RADS folder.
+* Download League 4.20 client
+* Go into Custom League Content folder
+* Drag League of Legends folder to your League of Legends 4.20 folder, make sure League of Legends 4.20 folder has RADS folder.
