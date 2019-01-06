@@ -1,0 +1,3 @@
+[submodule "GameServer"]
+	path = GameServer
+	url = https://github.com/microsoftv/GameServer
