@@ -1,0 +1,37 @@
+----- CHANGELOG 1/4/19 -----
+1. Added Caitlyn Q and R abilities (R is most likely unfinished)
+2. Added Blitzcrank W
+3. Added !logcoords command which prints current coordinates to chat
+4. Fixed issues with removing RemoveMinion function for some abilities that used it
+5. Added MasterYi Meditate buff
+6. Changed some buff file names to represent their class names
+7. Added GrievousWounds buff
+8. Added option to pause/unpause AI spawned with !spawn command (!spawn pauseAI/unpauseAI, does not change previously spawned minions)
+9. Fixed paused lane minions not showing real health
+10. Added Custom League Content folder for porting or adding champions
+11. Added Ekko to Custom League Content folder
+
+----- CHANGELOG 1/3/19 -----
+1. Added Helper class in namespace LeagueSandbox.GameServer.Scripting.CSharp
+2. Added Graves' Q and R abilities (un-bugfixed)
+3. Added Ekko Q ability (placeholder code) and some .json files for Ekko; preparing for full port
+4. Removed RemoveMinion function as Die() function is good enough (targeting system needs fixing)
+
+----- CHANGELOG 1/2/19 -----
+1. More refining of Tristana, Nunu, and Gangplank, not all fully functional yet
+
+----- CHANGELOG 1/1/19 -----
+1. More changes to Taric
+
+----- CHANGELOG 12/31/18 -----
+1. Fixed bugs related to Tristana, Taric, Gangplank, Nunu, Blitzcrank, and Caitlyn
+	- Tristana (QWER) fully functional outside of E explosion passive
+	- Taric (Q) fully functional (WER) with some issues
+	- Gangplank (QWER) with some issues, but all functional
+	- Nunu (Q) fully functional (WE) with issues
+	- Blitzcrank Q hook movement fix
+	- Caitlyn E movement fix
+2. Added ClearAllCrowdControl() function for IChampion.
+
+----- CHANGELOG START -----
+1. Added Vayne, Shaco, and Katarina abilities (Vayne needs bugfixing)
