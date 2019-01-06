@@ -1,6 +1,6 @@
 [submodule "GameServer"]
 	path = GameServer
-	url = https://github.com/microsoftv/GameServer
+	url = https://github.com/microsoftv/GameServer/tree/custom
 [submodule "CustomLeagueContent"]
 	path = CustomLeagueContent
 	url = https://github.com/microsoftv/CustomLeagueContent
