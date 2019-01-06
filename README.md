@@ -6,6 +6,7 @@ https://github.com/LeagueSandbox/GameServer and https://github.com/LeagueSandbox
 * A brain with some experience with code.
 
 # Setup:
+* Clone this repository (not just downloading zip)
 * Go into GameServer folder
 * Go into GameServerConsole
 * Go into bin
