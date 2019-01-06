@@ -12,7 +12,8 @@ then bin,
 then Debug,
 then Settings,
 open GameServerSettings.json,
-then change "clientLocation" to the path to your deploy folder that is inside League-420 folder (MAKE SURE TO CHANGE \ TO /).
+then change "clientLocation" to the path to your deploy folder that is inside League-420 folder
+(MAKE SURE TO CHANGE \ TO /).
 
 # Missing Settings:
 Skip to step "To run",
