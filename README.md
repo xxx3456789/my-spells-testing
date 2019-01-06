@@ -7,6 +7,11 @@ https://github.com/LeagueSandbox/GameServer and https://github.com/LeagueSandbox
 
 # Setup:
 * Clone this repository (not just downloading zip)
+	### Command Method:
+	* `git clone https://github.com/microsoftv/LeagueSandbox-Custom`
+	* `cd LeagueSandbox-Custom`
+	* `git submodule init`
+	* `git submodule update`
 * Go into GameServer folder
 * Go into GameServerConsole
 * Go into bin
