@@ -2,10 +2,6 @@ Prerequisites:
 1. League v4.20 client: https://mega.nz/#!hpkiQK5A!pFkZJtxCMQktJf4umplAdPC_Fukt0xgMfO7g3bGp1Io
 2. A brain with some experience with code.
 
-If you have no Settings folder:
-Skip to step "To run",
-then go to "For it to work"
-
 For it to work: 
 Go into GameServer folder,
 then GameServerConsole,
@@ -14,6 +10,10 @@ then Debug,
 then Settings,
 open GameServerSettings.json,
 then change "clientLocation" to the path to your deploy folder that is inside League-420 folder (MAKE SURE TO CHANGE \ TO /).
+
+If you have no Settings folder:
+Skip to step "To run",
+then go to "For it to work"
 
 To run:
 Go into GameServer folder,
