@@ -1,3 +1,5 @@
+Details: https://github.com/LeagueSandbox/GameServer and https://github.com/LeagueSandbox/LeagueSandbox-Default but with additions including more champion abilities (unfinished), custom champion files, and API functionality.
+
 Prerequisites: 
 1. League v4.20 client: https://mega.nz/#!hpkiQK5A!pFkZJtxCMQktJf4umplAdPC_Fukt0xgMfO7g3bGp1Io
 2. A brain with some experience with code.
