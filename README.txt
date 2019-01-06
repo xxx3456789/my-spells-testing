@@ -1,10 +1,11 @@
-Details: https://github.com/LeagueSandbox/GameServer and https://github.com/LeagueSandbox/LeagueSandbox-Default but with additions including more champion abilities (unfinished), custom champion files, and API functionality.
+# Details:
+https://github.com/LeagueSandbox/GameServer and https://github.com/LeagueSandbox/LeagueSandbox-Default but with additions including more champion abilities (unfinished), custom champion files, and API functionality.
 
-Prerequisites: 
+# Prerequisites:
 1. League v4.20 client: https://mega.nz/#!hpkiQK5A!pFkZJtxCMQktJf4umplAdPC_Fukt0xgMfO7g3bGp1Io
 2. A brain with some experience with code.
 
-For it to work: 
+# Setup:
 Go into GameServer folder,
 then GameServerConsole,
 then bin,
@@ -13,27 +14,27 @@ then Settings,
 open GameServerSettings.json,
 then change "clientLocation" to the path to your deploy folder that is inside League-420 folder (MAKE SURE TO CHANGE \ TO /).
 
-If you have no Settings folder:
+# Missing Settings:
 Skip to step "To run",
 then go to "For it to work"
 
-To run:
+# Running:
 Go into GameServer folder,
 then GameServerConsole,
 then bin,
 then Debug,
 then run GameServerConsole.exe and it will auto-launch League (ONLY for Player 1).
 
-To run as player 2:
+# Run as P2:
 Go into your deploy folder that is inside League-420 folder,
 then move run p2.bat file inside deploy folder,
 then run GameServerConsole.exe,
 then open run p2.bat.
 
-Commands:
+# Commands:
 In-game, type !help for a list.
 
-To change character:
+# Changing Character:
 Go into GameServer folder,
 then GameServerConsole,
 then bin,
@@ -41,7 +42,7 @@ then Debug,
 then Settings,
 then open GameInfo.json and change whatever settings you want (try not to mess with runes as the wrong ID will crash your game).
 
-To add/delete a player:
+# Changing Players:
 Go into GameServer folder,
 then GameServerConsole,
 then bin,
@@ -98,7 +99,7 @@ then add , next to the } at the end to notify the game you have more players tha
 then paste the info you copied with Ctrl+V and change the name to a new name, etc.
 When you want to delete, just select what you copied, delete it, then delete the , next to the } from before.
 
-If you want to use Custom League Content:
+# Custom League Content:
 Download League 4.20 client,
 then go into Custom League Content folder,
-then drag League of Legends folder to your League of Legends 4.20 folder.
+then drag League of Legends folder to your League of Legends 4.20 folder, make sure League of Legends 4.20 folder has RADS folder.
